@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace point
 {
-    class Program
+    class Point
     {
-        
+        static void Point( string[] args)
         {
 
         public int x;
@@ -17,8 +17,9 @@ namespace point
 
         public void draw();
 
-        Console.SetCursorPosition ( x, y );
-        Console.Write(sym);
+        Console.SetCursorPosition (x,y);
+        Console.Write ( sym );
+
         }
     }
 }

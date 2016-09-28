@@ -10,7 +10,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            point p1 = new Point();
+            Point p1 = new Point();
             p1.x = 1;
             p1.y = 3;
             p1.sym = '*';

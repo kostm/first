@@ -8,7 +8,7 @@ namespace point
 {
     class Program
     {
-        static void Main(string[] args)
+        
         {
 
         public int x;
@@ -18,7 +18,7 @@ namespace point
         public void draw();
 
         Console.SetCursorPosition ( x, y );
-        Console.Write ( sym );
+        Console.Write(sym);
         }
     }
 }
